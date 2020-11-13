@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "ES5",
+    "jsx": "react",
+    "allowJs": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "module": "ESNext",
+    "removeComments": true,
+    "moduleResolution": "Node",
+    "baseUrl": "src",
+    "paths": {
+      "@src/*": ["./*"],
+      "@utils/*": ["./utils/*"],
+      "@view/*": ["./view/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "types"],
+  "exclude": ["node_modules"]
+}
