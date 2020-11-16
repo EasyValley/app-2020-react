@@ -6,7 +6,7 @@ sync-state
 view-3d
 loader-demo
 react-memo
-
+self-react-redux
 
 
 
