@@ -3,6 +3,7 @@ import lazyload from '@utils/lazyload';
 import ThemeContext from './ThemeContext';
 
 const Toolbar = lazyload(() => import('./tool-bar/'));
+const Foobar = lazyload(() => import('./foo-bar/'));
 interface Props {}
 interface State {
   theme: string;
@@ -32,6 +33,7 @@ class ContextDemo extends Component<Props, State> {
         </div>
         <ThemeContext.Provider value={theme}>
           <Toolbar />
+          <Foobar />
         </ThemeContext.Provider>
       </div>
     );
